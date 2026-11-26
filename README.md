@@ -27,27 +27,27 @@ Graceful microphone permission handling and error messages
 
 push-to-talk/
 
-*server.js HTTPS Express server
+- server.js HTTPS Express server
 
-*package.json
+- package.json
 
-*README.md
+- README.md
 
-*keys/
+- keys/
 
-**cert.pem TLS certificate
+-- cert.pem TLS certificate
 
-**key.pem TLS private key
+-- key.pem TLS private key
 
-*public/
+- public/
 
-**index.html UI markup
+-- index.html UI markup
 
-**style.css UI styles
+-- style.css UI styles
 
-**script.js Recorder + upload logic
+-- script.js Recorder + upload logic
 
-*uploads/ Created automatically (received audio)
+- uploads/ Created automatically (received audio)
 
 
 ## Quick start
