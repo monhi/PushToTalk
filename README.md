@@ -26,17 +26,29 @@ Graceful microphone permission handling and error messages
 ## Project structure
 
 push-to-talk/
+
 *server.js HTTPS Express server
+
 *package.json
+
 *README.md
+
 *keys/
+
 **cert.pem TLS certificate
+
 **key.pem TLS private key
+
 *public/
+
 **index.html UI markup
+
 **style.css UI styles
+
 **script.js Recorder + upload logic
+
 *uploads/ Created automatically (received audio)
+
 
 ## Quick start
 
