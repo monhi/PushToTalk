@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Push‑to‑Talk · Audio Recorder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <h1><span>🎙️</span> Push‑to‑Talk</h1>
+
+    <!-- PUSH TO TALK BUTTON -->
+    <div class="ptt-area">
+      <button class="ptt-button" id="pttButton" aria-label="Push to talk">
+        <span class="mic-icon">🎤</span>
+        <span id="pttLabel">HOLD</span>
+      </button>
+      <div class="ptt-hint">press &amp; hold to record</div>
+      <div class="status-badge" id="statusBadge">ready</div>
+    </div>
+
+    <!-- RECORDINGS LIST -->
+    <div class="recordings-section">
+      <div class="recordings-header">
+        <h2>📋 Recordings</h2>
+        <span class="count" id="countBadge">0</span>
+      </div>
+      <div class="audio-list" id="audioList">
+        <div class="empty-message">no recordings yet — hold the button</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
