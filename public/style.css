@@ -261,3 +261,21 @@ audio::-webkit-media-controls-panel {
   .ptt-button { width: 130px; height: 130px; font-size: 1.1rem; }
   .mic-icon { font-size: 2rem; }
 }
+
+/* Logo */
+.logo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.logo {
+  display: block;
+  max-height: 70px;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
