@@ -8,10 +8,36 @@
 </head>
 <body>
   <div class="app-container">
-  <div class="logo-wrap">
+    <div class="logo-wrap">
       <img src="dspcom.svg" alt="dspcom logo" class="logo" />
     </div>
     <h1><span>🎙️</span> Push‑to‑Talk</h1>
+
+    <!-- SETTINGS -->
+    <div class="settings-panel">
+      <div class="settings-header">
+        <span>⚙️ Settings</span>
+        <button class="settings-toggle" id="settingsToggle" type="button" aria-label="Toggle settings">▾</button>
+      </div>
+      <div class="settings-body" id="settingsBody">
+        <label class="settings-row">
+          <span>Language</span>
+          <select id="langSelect">
+            <option value="ja">日本語 (Japanese)</option>
+            <option value="fa">فارسی (Persian)</option>
+            <option value="en">English</option>
+          </select>
+        </label>
+
+        <label class="settings-row">
+          <span>Model</span>
+          <select id="modelSelect">
+            <option value="base">base (fast)</option>
+            <option value="small">small (more accurate)</option>
+          </select>
+        </label>
+      </div>
+    </div>
 
     <!-- PUSH TO TALK BUTTON -->
     <div class="ptt-area">

@@ -1,13 +1,19 @@
 {
   "name": "push-to-talk",
   "version": "1.0.0",
-  "description": "Push‑to‑talk audio recorder with Node.js server",
-  "main": "server.js",
+  "description": "Push-to-talk audio recorder with local Whisper transcription",
+  "type": "module",
+  "main": "server.mjs",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.mjs",
+	"dev":   "nodemon server.mjs"
   },
   "dependencies": {
+    "@lumen-labs-dev/whisper-node": "^0.4.1",
     "express": "^4.19.2",
     "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
